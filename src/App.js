@@ -1,5 +1,6 @@
 import './App.css';
 import Card from './components/Card';
+import CardGrid from './components/CardGrid';
 import favManga from './assets/favManga';
 
 const favMangaToDisplay = favManga.map((manga)=>{
@@ -11,11 +12,9 @@ const favMangaToDisplay = favManga.map((manga)=>{
 
 function App() {
   return (
-    <div className='container mx-auto p-5'>
-      <div className='grid grid-cols-4 gap-6'>
-        {favMangaToDisplay}
-      </div>
-    </div>
+    <CardGrid>
+      {favMangaToDisplay}
+    </CardGrid>
   );
 }
 
