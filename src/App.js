@@ -11,7 +11,7 @@ const favMangaToDisplay = favManga.map((manga)=>{
 
 function App() {
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto p-5'>
       <div className='grid grid-cols-4 gap-6'>
         {favMangaToDisplay}
       </div>
