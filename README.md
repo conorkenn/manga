@@ -1,7 +1,7 @@
 # Manga
  Web based manga reader
 # Progress
-<img src="./screenshots/3_13.2_Progress.png" alt="Progress Pic">
+<img src="./screenshots/3_17_Progress.png" alt="Progress Pic">
 
 # Plan
 
